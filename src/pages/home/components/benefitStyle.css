@@ -1,0 +1,75 @@
+@import url("../../../assets/colorStyle.css");
+
+.benefits {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.b-desc {
+    width: 100%;
+}
+
+.b-desc div h4 {
+    line-height: 4;
+    color: var(--secondary-color);
+}
+
+.b-desc div h1 {
+    font-weight: bold;
+    font-size: 40px;
+    width: 430px;
+    line-height: 1;
+}
+
+.b-desc .title-p {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b-desc .title-p p {
+    font-size: 16px;
+    color: var(--paragraph-color);
+    width: 432px;
+}
+
+/* Style Card */
+
+.cards-benefits {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
+
+.cards-benefits .card {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 -5px 30px rgba(52, 52, 52, 0.2);
+}
+
+.cards-benefits .card p {
+    color: var(--paragraph-color);
+    font-size: 16px;
+}
+
+
+.cards-benefits .card h3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.cards-benefits .card div {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--screen-color);
+    border-radius: 50%;
+}
+
+.cards-benefits .card div img {
+    padding: 12px;
+    width: 28px;
+}

@@ -1,0 +1,105 @@
+@import url("../../assets/colorStyle.css");
+
+.present {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+   
+}
+
+.present .p-title {
+    font-size: 44px;
+    width: 500px;
+    text-align: center;
+}
+
+.present .p-p1 {
+    margin-top: 22px;
+    width: 623px;
+    font-size: 16px;
+    text-align: center;
+    color: var(--paragraph-color);
+}
+
+.arrow {
+    position: absolute;
+    width: 260px;
+    top: 52px;
+    left: 145px;
+}
+
+.sketch-arrow {
+    position: absolute;
+    top: 55px;
+    right: 395px;
+}
+
+.p-bg-img {
+    width: 100%;
+    background-image: url('../../assets/pictures/bg1.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 440px;
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+
+}
+
+.p-bg-img .search {
+    width: 700px;
+    background-color: white;
+    box-shadow: 0 -5px 30px rgba(52, 52, 52, 0.2);
+    position: absolute;
+    top: -28px;
+    box-sizing: border-box;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.p-bg-img .search .search-icon {
+    font-size: 28px;
+    color: var(--paragraph-color); 
+}
+
+.p-bg-img .search .search-input {
+    padding: 2px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    height: 26px;
+    font-size: 16px;
+    width: 495px;
+}
+
+.p-bg-img .search .search-input::placeholder {
+    color: var(--paragraph-color);
+}
+
+.p-bg-img .search button {
+    height: 42px;
+    width: 120px;
+    background-color: var(--primary-color);
+    font-size: 14px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.15s ease;
+}
+
+.p-bg-img .search button:hover {
+    opacity: 0.9;
+}

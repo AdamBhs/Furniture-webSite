@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Eudoxus';
+  src: url("src/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Light.ttf") format("truetype");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eudoxus';
+  src: url("src/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.ttf") format("truetype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eudoxus';
+  src: url("src/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eudoxus';
+  src: url("src/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.ttf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eudoxus';
+  src: url("src/assets/fonts/Eudoxus-Sans-font/EudoxusSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800; /* ExtraBold */
+  font-style: normal;
+}
+
+:root {
+  --primary-font: 'Eudoxus', sans-serif;
+
+  font-family: var(--primary-font);
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: white;
+  color: var(--title-color);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  height: 400vh;
+}
+
+.container-global {
+  margin-left: 100px;
+  margin-right: 100px;
+}

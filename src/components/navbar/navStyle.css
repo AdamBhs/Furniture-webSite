@@ -1,0 +1,104 @@
+@import url("../../assets/colorStyle.css");
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.header {
+    border-bottom: 2px solid #E4E4E6;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--title-color);
+}
+
+/* Style logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.logo h3 {
+    font-size: 24px;
+}
+
+img {
+    width: 50px;
+}
+
+/* Style Links */
+
+.links ul {
+    display: flex;
+    gap: 60px;
+}
+
+.links ul li {
+    list-style: none;
+    cursor: pointer;
+    position: relative; 
+    transition: all 0.3s ease;
+}
+
+.links ul li a:hover {
+    color: var(--primary-color);
+}
+
+.links ul .activeLink a {
+    color: var(--primary-color);
+}
+
+.links ul li::after,
+.links ul li::before  {
+    content: '';
+    position: absolute;
+    bottom: -2px; 
+    width: 0;
+    height: 1px;
+    transition: all 0.3s ease; 
+}
+
+.links ul li::after {
+    right: 0;
+}
+
+.links ul li::before {
+    left: 0;
+}
+
+.links ul li:hover::after,
+.links ul li:hover::before {
+    width: 50%;
+    background-color: var(--primary-color);
+}
+
+.links ul .activeLink::after,
+.links ul .activeLink::before {
+    width: 50%;
+    background-color: var(--primary-color);
+}
+
+/* Style user bag */
+.user-bag {
+    display: flex;
+    gap: 6px;
+    font-size: 24px;
+}
+
+.user-bag .icon {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.user-bag .icon:hover {
+    background-color: #C5D6D5;
+}
